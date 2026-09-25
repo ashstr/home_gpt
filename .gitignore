@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[oc]
+
+# Virtual environment, created by setup.sh
+.venv/
+venv/
+
+# The assistant's memory — everyone makes their own
+notes.txt
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
