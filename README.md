@@ -22,7 +22,7 @@ By hand instead: install [Ollama](https://ollama.com), `ollama pull gemma4:e2b`,
 ## The demo, in order
 
 Each step adds one idea. The steps are standalone and repeat a few lines on
-purpose, so any one of them fits on a slide.
+purpoe
 
 1. `python steps/step1_one_call.py` — one call in, one answer out.
 2. `python steps/step2_chat.py` — the same thing, streaming. Ask a follow-up
@@ -38,9 +38,7 @@ purpose, so any one of them fits on a slide.
    - *"Remember that I prefer short answers."*, quit, restart, then *"What do
      you know about me?"* — the memory is a file, not something it learned.
 
-Two things depend on the model, so rehearse with the one you will use:
-whether a tool fires at all, and how many turns step 4 takes to start
-forgetting (raise or lower its `BUDGET`).
+
 
 ## Break it on purpose
 
